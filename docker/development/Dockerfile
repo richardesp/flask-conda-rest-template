@@ -17,5 +17,5 @@ WORKDIR /app
 # Expose proxy pass nginx port
 EXPOSE 5000
 
-# Comando para ejecutar la aplicación Flask
+# Command to execute flask app using debug mode (development)
 CMD ["flask", "run", "--host=0.0.0.0"]
