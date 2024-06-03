@@ -12,7 +12,7 @@ ENV PATH /opt/conda/envs/dev_env/bin:$PATH
 
 # Copy Flask backend code to the container
 COPY backend /app/backend
-WORKDIR /app/backend
+WORKDIR /app
 
 # Expose proxy pass nginx port
 EXPOSE 5000
